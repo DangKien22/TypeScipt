@@ -135,4 +135,4 @@ const getDiscountedProducts = (listProduct : Product[], rate: number) => {
     return {...item, price: item.price - item.price*(rate/100)}
   })
 }
-console.log("getDiscountedProducts", getDiscountedProducts(listProduct, 50))
+console.log("getDiscountedProductss", getDiscountedProducts(listProduct, 50))
