@@ -65,7 +65,7 @@ class Test {
     this.name = name;
     this.age = age;
   }
-  // @decorator()
+  @decorator()
   infor() {
     return `Ten toi la ${this.name}, Nam nay ${this.age} tuoi`;
   }
